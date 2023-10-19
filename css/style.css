@@ -1,0 +1,59 @@
+#col {
+    background-color: #f6f7f7;
+}
+.cont_c {
+    width: 100%;
+    border-radius: .4rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 0.8rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.cont_cc {
+    display: flex;
+}
+
+.cont_c:hover {
+    cursor: pointer;
+    box-shadow: 0 0.01rem 0.2rem #000;
+
+}
+
+
+.categoria {
+    display: flex;
+    padding: 0.3rem;
+}
+.categoria p {
+    margin: 0;
+}
+.img {
+    width: 2rem;
+
+}
+
+.card-header {
+    display: flex;
+}
+.descripcion {
+    display: flexbox;
+    width: 60%;
+}
+
+.card {
+    box-shadow: 0 0.01rem 0.1rem #000;
+    margin-top:1rem;
+    margin-bottom:.8rem;
+}
+
+.modal .card {
+    box-shadow: 0 0.01rem 0.1rem #000;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.custom-height {
+ height: 60vh;
+}

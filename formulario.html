@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Formulario</title>
+</head>
+<body>
+   <!--Nav-->
+    <nav class="navbar navbar-expand-sm bg-light w-auto">
+        <div class="container-fluid">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="index.html">Cursos</a>
+              <a class="nav-link" href="formulario.html">Formulario</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container py-4">
+        <h1>Formulario</h1>
+        <form>
+            <div class="mb-3">
+                <label for="numeroInput" class="form-label">Número (máximo 10 caracteres)</label>
+                <input type="text" class="form-control" id="numeroInput" maxlength="10">
+            </div>
+
+            <div class="mb-3">
+                <label for="texto1Input" class="form-label">Texto 1 (máximo 40 caracteres)</label>
+                <input type="text" class="form-control" id="texto1Input" maxlength="40">
+            </div>
+
+            <div class="mb-3">
+                <label for="texto2Input" class="form-label">Texto 2 (máximo 40 caracteres)</label>
+                <input type="text" class="form-control" id="texto2Input" maxlength="40">
+            </div>
+
+            <div class="mb-3">
+                <label for="textareaInput" class="form-label">Texto Multilínea (máximo 200 caracteres)</label>
+                <textarea class="form-control" id="textareaInput" rows="3" maxlength="200"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="fechaInput" class="form-label">Fecha</label>
+                <input type="date" class="form-control" id="fechaInput">
+            </div>
+
+            <div class="mb-3">
+                <label for="horaInput" class="form-label">Hora</label>
+                <input type="time" class="form-control" id="horaInput">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-check-label">Casilla de verificación</label>
+                <input type="checkbox" class="form-check-input">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Opciones (Seleccione una)</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioOptions" id="option1" value="option1">
+                    <label class="form-check-label" for="option1">Opción 1</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioOptions" id="option2" value="option2">
+                    <label class="form-check-label" for="option2">Opción 2</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioOptions" id="option3" value="option3">
+                    <label class="form-check-label" for="option3">Opción 3</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="colorInput" class="form-label">Seleccione un color</label>
+                <input type="color" class="form-control" id="colorInput">
+            </div>
+
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="emailInput">
+            </div>
+
+            <div class="mb-3">
+                <label for="selectInput" class="form-label">Lista desplegable (Seleccione una o varias opciones)</label>
+                <select multiple class="form-select" id="selectInput">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="autoCompleteInput" class="form-label">Búsqueda con autocompletar</label>
+                <input type="text" class="form-control" id="autoCompleteInput" list="sugerencias">
+                <datalist id="sugerencias">
+                    <option value="Opción 1">
+                    <option value="Opción 2">
+                    <option value="Opción 3">
+                </datalist>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+.custom-height {
+    height: fit-content;
+}
+
+#col-aside{
+    position: relative;
+    left: 0;
+    top: -25vh;
+}
+
+#col-aside a {
+    transition: color 0.5s ease;
+}
+
+#col-aside a:hover {
+    cursor: pointer;
+    color: slateblue;
+}
+
+aside {
+    box-shadow: 0 0.01rem 0.1rem #000;
+}
+
+   #boton1 {
+    border: none;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+     background-color: #8a2be2;
+     font-size: 1.1rem;
+     color: #ffffff;
+   }
+
+   #boton2 {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+     font-size: 1.1rem;
+   }
+
+#container_3 {
+    background-color: #f8f8f9;
+}
+
+#facebook:hover, #twitter:hover {
+    filter: invert(38%) sepia(49%) saturate(7495%) hue-rotate(197deg) brightness(100%) contrast(94%);
+}
+
+#linkendin:hover {
+    filter: invert(31%) sepia(89%) saturate(4751%) hue-rotate(185deg) brightness(90%) contrast(103%);
+}
+
+#row-curs{
+    background-color: #f8f8f9;
+}
+
+#cursP h6 {
+    display: flexbox;
+    width: 25%;
+}
+
+.cursP {
+    display: flex;
+}
+
+.footer p {
+    display: inline;
+}
+
+.footer a{
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+  
